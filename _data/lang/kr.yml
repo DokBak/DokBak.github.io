@@ -1,0 +1,225 @@
+lng:
+  name: 한국어
+  # based on ISO_639-1 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+  code: ko
+  # specifically needed for open-graph meta og:locale. if open_graph or html_lng_with_country_code not enabled in _data/conf/main.yml, it's not necessary.
+  # For html tags, you can enable or disable using html_lng_with_country_code defined in _data/conf/main.yml
+  # based on ISO_3166-1 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+  country: KR
+  switch_title: Kr
+  offer:
+    title: 언어
+    msg_page: 이 페이지를 한국어로 표시합니다.
+    # if page translation is not available, use this.
+    msg_site: 한국어 홈으로
+
+date:
+  long: "%Y년%m월%d일"
+  day: "%d일"
+  year: "%Y년"
+  months: [1월, 2월, 3월, 4월, 5월, 6월, 7월, 8월, 9월, 10월, 11월, 12월]
+
+not_found:
+  header: 페이지를 찾을 수 없습니다.
+  line1: 요청한 페이지를 찾을 수 없습니다.
+  line2: 사용 가능한 경우 메뉴 또는 사이트 검색을 시도합니다.
+
+no_translation_tooltip: 번역 내용이 없습니다.
+
+navigation:
+  contact_header: 항목
+
+color_scheme_switch_tooltip: 배경
+
+search:
+  placeholder: 검색
+  noResultText: 검색되지 않았습니다.
+
+image_viewer:
+  load_error: 이미지를 불러올수 없습니다.
+
+copyright:
+  additional_text: " 저작권으로 보호받고 있습니다."
+
+creative_commons:
+  some_rights_reserved: 일부의 저작권 보호
+  # check _data/owner/[language].yml for license type.
+  by: 特に明記されていない限り、このWebサイトのコンテンツはクリエイティブ・コモンズ 表示 4.0 国際 ライセンスの下に提供されています。
+  by-nd: 特に明記されていない限り、このWebサイトのコンテンツはクリエイティブ・コモンズ 表示 - 改変禁止 4.0 国際 ライセンスの下に提供されています。
+  by-sa: 特に明記されていない限り、このWebサイトのコンテンツはクリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンスの下に提供されています。
+  by-nc: 特に明記されていない限り、このWebサイトのコンテンツはクリエイティブ・コモンズ 表示 - 非営利 4.0 国際 ライセンスの下に提供されています。
+  by-nc-nd: 特に明記されていない限り、このWebサイトのコンテンツはクリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際 ライセンスの下に提供されています。
+  by-nc-sa: 特に明記されていない限り、このWebサイトのコンテンツはクリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際 ライセンスの下に提供されています。
+
+# for 404 layout
+not-found:
+  title: "404"
+
+# for post layout
+post:
+  read_time:
+    unit: "분"
+    text: "으로 읽기"
+    # c for char w for word
+    word_char: c
+    # char or words per minute
+    per_minute: 500
+  pager_buttons:
+    older_post: "← 지난 포스트"
+    newer_post: "다음 포스트 →"
+    first_post: 처음
+    last_post: 마지막
+  comments:
+    disqus:
+      count_title: 코맨트
+      noscript: 코멘트를 표시하려면 Java Script를 활성화하십시오.
+      click_to_load: "코멘트 표시"
+      consent:
+        title: 코멘트 (Disqus.com)
+        text: >
+          코멘트 기능은 서드 파티에 의해서 호스트되고 있습니다. 외부 콘텐츠를 표시함으로써 disqus.com의 $terms와 $privacy_policy에 동의한 것입니다.
+        <br> 대상 광고를 선택하지 않으려면 $settings_link를 열고 "opt-out" 버튼을 클릭한 후 닫으십시오. 이전으로 돌아가서 코멘트를 표시해 주세요.
+        terms_link_text: 이용약관
+        privacy_link_text: 개인 정보 보호 정책
+        settings_link_text: 설정 링크
+        button:
+          load_once: 이번만 표시
+          load_and_do_not_ask_again: 항상 표시
+  table_of_contents:
+    heading: 표제
+    tooltip:
+      move: 드래그하여 이동
+      close: 닫기
+  share:
+    heading: 공유
+    link_copied: 링크가 복사되었습니다!
+    tooltip:
+      # keys need to match with _data/share.yml
+      twitter: Twitter
+      facebook: Facebook
+      telegram: Telegram
+      linkedin: LinkedIn
+      email: 메일
+      copy_link: 링크 복사
+
+# for post-list layout
+post-list:
+  title: 블로그
+  button_name: 블로그
+  upside_down_tabs:
+    tab:
+      all: 모두
+      categories: 카테고리
+      tags: 태그
+      years: 년
+      clear: 초기화
+      close: 닫기
+      tooltip:
+        clear: 초기화
+        close: 닫기
+    msg:
+      property_list:
+        # keys need to match with /query/post-query.json
+        tags: 태그
+        category: 카테고리
+        year: 년
+      # you can use these wildcards, {property} {value} {thumb}
+      resultFoundTitleFormat: "{property} : {thumb}"
+
+# for home layout
+home:
+  title: 환영합니다.
+  button_name: 홈
+  new_posts_title: 신규 포스트
+  new_posts_show_more_button: 더보기 ...
+
+# for archives layout
+archives:
+  title: 아카이브
+  button_name: 아카이브
+  page_header: 아카이브
+
+# for about layout
+about:
+  title: DokBak에 대해
+  button_name: DokBak에 대해
+  email_title: 메일
+
+# for links layout
+links:
+  title: 링크
+  button_name: 링크
+  link_text: Web사이트
+  info_text: 설명
+
+# for projects layout
+projects:
+  title: 프로젝트
+  button_name: 프로젝트
+  read_more_text: 이어읽기
+  read_less_text: 닫기
+
+# for privacy-policy layout
+privacy-policy:
+  title: &privacy_policy_title 개인 정보 보호 정책
+
+# constants to be replaced for
+constants:
+  greetings: 안녕하세요.
+  welcome: 어서오세요 
+  sample: 샘플
+
+# for cookie consent
+cookie_consent:
+  privacy_policy_link_text: *privacy_policy_title
+  side_nav_setting_button_tooltip: &cookie_settings 쿠키 설정
+  panel_bar:
+    msg: >
+      본 사이트는 기능을 최적화하기 위해 쿠키를 사용하고 있습니다.
+      승인 후에 유효합니다.
+    privacy_msg: $privacy_link을 확인
+    buttons:
+      accept: &accept_button 모두 허용
+      settings: 설정
+      deny: &deny_button 거부
+  panel_settings:
+    title: *cookie_settings
+    msg: >
+      본 사이트는 기능을 최적화하기 위해 쿠키를 사용하고 있습니다.
+      승인 후에 유효합니다. 쿠키 정책에 대해서는 아래의 각 항목을 클릭해 주십시오.
+    privacy_msg: $privacy_link을 확인
+    buttons:
+      accept: *accept_button
+      save: 선택사항 허가
+      deny: *deny_button
+    always_active: 항상 유효
+    consent_types:
+      necessary:
+        title: 필요한 쿠키
+        info: >
+          이 Cookie는 웹 사이트의 기능에 필수적이기 때문에 비활성화할 수 없습니다.
+          통상, 배색등의 사이트 기능을 변경했을 때에 설정됩니다.
+          이 Cookie에는 개인을 특정할 수 있는 정보가 저장되지 않습니다.
+          $gtag_info
+      analytics:
+        title: 성능 쿠키
+        info: $gtag_info
+      preferences:
+        title: 기능성 쿠키
+        info: $gtag_info
+      advertising:
+        title: 타겟팅 광고 쿠키
+        info: $gtag_info
+    gtag_info:
+      # from https://support.google.com/tagmanager/answer/10718549#consent-types
+      ad_storage: >
+        광고에 관련된 보존(Cookie 등)을 유효하게 합니다.
+      analytics_storage: >
+        방문시의 체재 시간등의 분석에 관련하는 보존(Cookie등)을 유효하게 합니다.
+      functionality_storage: >
+        Web 사이트 또는 앱의 기능(언어 설정 등)을 서포트하는 보존을 유효하게 합니다.
+      personalization_storage: >
+        추천 동영상 등, 개인화에 관련된 보존을 유효하게 합니다.
+      security_storage: >
+        인증 기능, 부정행위 방지, 기타 사용자 보호 등
+        보안 관련 저장을 활성화합니다.
