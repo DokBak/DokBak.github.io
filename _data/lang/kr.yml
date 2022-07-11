@@ -78,7 +78,7 @@ post:
         title: 코멘트 (Disqus.com)
         text: >
           코멘트 기능은 서드 파티에 의해서 호스트되고 있습니다. 외부 콘텐츠를 표시함으로써 disqus.com의 $terms와 $privacy_policy에 동의한 것입니다.
-        <br> 대상 광고를 선택하지 않으려면 $settings_link를 열고 "opt-out" 버튼을 클릭한 후 닫으십시오. 이전으로 돌아가서 코멘트를 표시해 주세요.
+          <br> 대상 광고를 선택하지 않으려면 $settings_link를 열고 "opt-out" 버튼을 클릭한 후 닫으십시오. 이전으로 돌아가서 코멘트를 표시해 주세요.
         terms_link_text: 이용약관
         privacy_link_text: 개인 정보 보호 정책
         settings_link_text: 설정 링크
