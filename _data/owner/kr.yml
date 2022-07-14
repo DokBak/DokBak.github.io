@@ -75,4 +75,7 @@ google_site_verification: ""
 ###########################################################
 # Index Page Constants Text
 auto_content:
-  - auto_generated_text: "테스트 텍스트"
+  - text: "auto_content.text.kr"
+  - more_info: "auto_content.more_info.kr"
+  - greeting: "auto_content.greeting.kr"
+  - auto_generated_text: "auto_content.auto_generated_text.kr"
