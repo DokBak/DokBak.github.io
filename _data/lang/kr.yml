@@ -128,27 +128,27 @@ post-list:
 
 # for home layout
 home:
-  title: 환영합니다.
+  title: 기술 블로그
   button_name: 홈
-  new_posts_title: 신규 포스트
+  new_posts_title: 최근 포스트
   new_posts_show_more_button: 더보기 ...
 
 # for archives layout
 archives:
-  title: 아카이브
-  button_name: 아카이브
-  page_header: 아카이브
+  title: 발자취
+  button_name: 발자취
+  page_header: 발자취
 
 # for about layout
 about:
-  title: DokBak에 대해
-  button_name: DokBak에 대해
+  title: Who am i ?
+  button_name: DokBak
   email_title: 메일
 
 # for links layout
 links:
-  title: 링크
-  button_name: 링크
+  title: 참고 사이트
+  button_name: 참고 사이트
   link_text: Web사이트
   info_text: 설명
 
@@ -156,8 +156,8 @@ links:
 projects:
   title: 프로젝트
   button_name: 프로젝트
-  read_more_text: 이어읽기
-  read_less_text: 닫기
+  read_more_text: 자세히
+  read_less_text: 최소화
 
 # for privacy-policy layout
 privacy-policy:
@@ -166,7 +166,7 @@ privacy-policy:
 # constants to be replaced for
 constants:
   greetings: 안녕하세요.
-  welcome: 어서오세요 
+  welcome: 어서오세요. 
   sample: 샘플
 
 # for cookie consent
