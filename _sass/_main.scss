@@ -1,0 +1,19 @@
+/* 사이드바 스타일 */
+.sidebar {
+    width: 240px; /* 사이드바의 너비 설정 */
+    padding: 20px;
+    background-color: #f8f8f8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
+  /* 반응형 사이드바 스타일 */
+  @media (max-width: 767px) {
+    .sidebar {
+      display: none; /* 모바일 화면에서는 사이드바를 숨김 */
+    }
+  }
+
+  
