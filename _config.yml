@@ -1,1 +1,17 @@
-theme: minima
+# 블로그의 title 설정
+title: Master DB
+
+# 블로그의 description 설정
+description: DokBak의 기초코딩
+
+# 블로그의 URL 설정
+url: https://dokbak.github.io/
+
+# head 부분에 추가할 내용 설정
+head_extra:
+  # CSS 파일 추가 예시
+  - "<link rel='stylesheet' href='/assets/css/custom.css' />"
+  # JavaScript 파일 추가 예시
+  - "<script src='/assets/js/custom.js'></script>"
+  # Meta 태그 추가 예시
+  - "<meta name='author' content='DokBak' />"
