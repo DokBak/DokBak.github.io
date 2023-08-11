@@ -1,6 +1,3 @@
-# 반응형 사이드바 설정
-responsive_sidebar: true
-
 collections:
   authors:
     output: true
