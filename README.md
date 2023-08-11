@@ -11,7 +11,7 @@
 ⎜  
 ├── _drafts                     : 임시 폴더  
 ⎜  
-├── includes                    : 특정 역활의 레이아웃 html(md)파일 격납 폴더  
+├── _includes                    : 특정 역활의 레이아웃 html(md)파일 격납 폴더  
 ⎪   └── navigation.md           : navigation관련 레이아웃 html(md) 파일  
 ⎜  
 ├── _layouts                    : 특정 형식의 레이아웃 html(md)파일 격납 폴더  
