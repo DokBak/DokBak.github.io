@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
-    {% include nav/side_nav.md %}
+    {% include navigation.md %}
+    {% include nav/test_nav.md %}
     {{ content }}
   </body>
 </html>
