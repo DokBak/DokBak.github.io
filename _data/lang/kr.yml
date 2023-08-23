@@ -4,34 +4,34 @@
 # Licensed under MIT
 
 lng:
-  name: français
+  name: 한국어
   # based on ISO_639-1 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-  code: fr
+  code: ko
   # specifically needed for open-graph meta og:locale. if open_graph or html_lng_with_country_code not enabled in _data/conf/main.yml, it's not necessary.
   # For html tags, you can enable or disable using html_lng_with_country_code defined in _data/conf/main.yml
   # based on ISO_3166-1 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-  country: FR
-  switch_title: Fr
+  country: KR
+  switch_title: Kr
   offer:
-    title: Langue
-    msg_page: Voir cette page en français.
+    title: 언어
+    msg_page: 이 페이지는 한국어로 표시됩니다.
     # if page translation is not available, use this.
-    msg_site: Aller à l'accueil français
+    msg_site: 홈페이지
 
 date:
   # if %b is used in the long format, it will be replaced with the corresponding item in 'months' list below.
-  long: "%-d %b, %Y"
-  day: "%d"
-  year: "%Y"
+  long: "%Y년%m월%d일"
+  day: "%d일"
+  year: "%Y년"
   # months itself also used in Archive page.
-  months: [Janv, Févr, Mars, Avr, Mai, Juin, Juil, Août, Sept, Oct, Nov, Déc]
+  months: [1월, 2월, 3월, 4월, 5월, 6월, 7월, 8월, 9월, 10월, 11월, 12월]
 
 not_found:
-  header: Page non trouvée
-  line1: La page que vous avez demandée est introuvable.
-  line2: Essayez le menu ou la recherche sur le site si disponible.
+  header: 페이지를 찾을 수 없습니다.
+  line1: 요청된 페이지를 찾을 수 없습니다.
+  line2: 메뉴 또는 사이트 검색을 시도합니다.
 
-no_translation_tooltip: Pas de traduction
+no_translation_tooltip: 번역 금지
 
 navigation:
   contact_header: Contact
