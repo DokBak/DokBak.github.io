@@ -36,7 +36,7 @@ no_translation_tooltip: 번역 금지
 navigation:
   contact_header: Contact
 
-color_scheme_switch_tooltip: 색상표
+color_scheme_switch_tooltip: 배경색
 
 search:
   placeholder: 검색
@@ -135,27 +135,27 @@ post-list:
 
 # for home layout
 home:
-  title: Bienvenue
-  button_name: Accueil
-  new_posts_title: Nouveaux articles
-  new_posts_show_more_button: Voir plus ...
+  title: 어서오세요
+  button_name: 홈
+  new_posts_title: 최신 포스트
+  new_posts_show_more_button: 더 보기 ...
 
 # for archives layout
 archives:
-  title: Archive
-  button_name: Archive
-  page_header: Archive
+  title: 블로그 기록
+  button_name: 블로그 기록
+  page_header: 블로그 기록
 
 # for about layout
 about:
   title: DokBak
-  button_name: 자기소개
+  button_name: DokBak
   email_title: 전자메일
 
 # for links layout
 links:
-  title: 참고 사이트
-  button_name: 참고 사이트
+  title: 참고사이트
+  button_name: 참고사이트
   link_text: 웹사이트
   info_text: 설명
 
@@ -163,12 +163,12 @@ links:
 projects:
   title: 프로젝트
   button_name: 프로젝트
-  read_more_text: En savoir plus
-  read_less_text: Réduire
+  read_more_text: 이어서 읽기
+  read_less_text: 닫기
 
 # for privacy-policy layout
 privacy-policy:
-  title: &privacy_policy_title Politique de confidentialité
+  title: &privacy_policy_title 개인 정보 보호 정책
 
 # constants to be replaced for
 constants:
@@ -184,12 +184,12 @@ contact_form:
 # for cookie consent
 cookie_consent:
   privacy_policy_link_text: *privacy_policy_title
-  side_nav_setting_button_tooltip: &cookie_settings Paramètres des cookies
+  side_nav_setting_button_tooltip: &cookie_settings 쿠키 설정
   panel_bar:
     msg: >
-      Ce site Web utilise des cookies pour optimiser les fonctionnalités du site.
-      Ils seront activés avec votre accord.
-    privacy_msg: Vérifiez la $privacy_link.
+      본 웹사이트는 기능을 최적화하기 위해 쿠키를 사용하고 있습니다.
+      승인 후에 활성화됩니다.
+    privacy_msg: $privacy_link을 확인해주세요.
     buttons:
       accept: &accept_button Autoriser tout
       settings: Personnaliser
@@ -199,7 +199,7 @@ cookie_consent:
     msg: >
       Ce site Web utilise des cookies pour optimiser les fonctionnalités du site.
       Ils seront activés avec votre accord. Veuillez cliquer sur chaque élément ci-dessous pour la politique en matière de cookies.
-    privacy_msg: Vérifiez la $privacy_link.
+    privacy_msg: $privacy_link을 확인해주세요.
     buttons:
       accept: *accept_button
       save: Autoriser la sélection

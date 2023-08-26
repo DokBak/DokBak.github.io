@@ -141,9 +141,9 @@ home:
 
 # for archives layout
 archives:
-  title: アーカイブ
-  button_name: アーカイブ
-  page_header: アーカイブ
+  title: ブログ記録
+  button_name: ブログ記録
+  page_header: ブログ記録
 
 # for about layout
 about:
