@@ -147,14 +147,14 @@ archives:
 
 # for about layout
 about:
-  title: 私について
-  button_name: 私について
+  title: DokBak
+  button_name: DokBak
   email_title: メール
 
 # for links layout
 links:
-  title: リンク
-  button_name: リンク
+  title: 参考サイト
+  button_name: 参考サイト
   link_text: Webサイト
   info_text: 説明
 

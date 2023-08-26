@@ -36,27 +36,27 @@ no_translation_tooltip: 번역 금지
 navigation:
   contact_header: Contact
 
-color_scheme_switch_tooltip: Schéma de couleur
+color_scheme_switch_tooltip: 색상표
 
 search:
-  placeholder: Recherche
-  noResultText: Aucun résultat trouvé.
+  placeholder: 검색
+  noResultText: 검색결과가 없습니다.
 
 image_viewer:
-  load_error: "L'image n'a pas pu être chargée."
+  load_error: 이미지를 읽을 수 없었습니다.
 
 copyright:
-  additional_text: " Tous les droits sont réservés."
+  additional_text: " 저작권으로 보호받고 있습니다. "
 
 creative_commons:
-  some_rights_reserved: Certains droits réservés.
+  some_rights_reserved: 일부 권리는 유보되어 있습니다.
   # check _data/owner/[language].yml for license type.
-  by: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution 4.0 International.
-  by-nd: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution-NoDerivatives 4.0 International.
-  by-sa: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution-ShareAlike 4.0 International.
-  by-nc: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution-NonCommercial 4.0 International.
-  by-nc-nd: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.
-  by-nc-sa: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.
+  by: 특별히 명기되어 있지 않은 한, 이 웹 사이트의 콘텐츠는 크리에이티브 커먼즈입니다. 표시 4.0 국제 라이선스 하에 제공되고 있습니다.
+  by-nd: 특별히 명기되어 있지 않은 한, 이 웹사이트의 콘텐츠는 크리에이티브 커먼즈입니다. 표시 - 변경 금지 4.0 국제 라이선스 하에 제공되고 있습니다.
+  by-sa: 특별히 명시되어 있지 않은 한, 이 웹사이트의 콘텐츠는 크리에이티브 커먼즈입니다. 표시 - 계승 4.0 국제 라이선스 하에 제공되고 있습니다.
+  by-nc: 특별히 명시되어 있지 않은 한, 이 웹사이트의 콘텐츠는 크리에이티브 커먼즈입니다. 보기 - 비영리 4.0 국제 라이선스 하에 제공됩니다.
+  by-nc-nd: 특별히 명시되어 있지 않은 한, 이 웹사이트의 콘텐츠는 크리에이티브 커먼즈입니다. 표시 - 비영리 - 변경 금지 4.0 국제 라이선스 하에 제공되고 있습니다.
+  by-nc-sa: 특별히 명시되어 있지 않은 한, 이 웹사이트의 콘텐츠는 크리에이티브 커먼즈입니다. 표시 - 비영리 - 계승 4.0 국제 라이선스 하에 제공되고 있습니다.
 
 # for 404 layout
 not-found:
@@ -65,22 +65,22 @@ not-found:
 # for post layout
 post:
   read_time:
-    unit: " min"
-    text: " de lecture"
+    unit: " 분"
+    text: " 안에 읽을 수 있습니다."
     # c for char w for word
     word_char: w
     # char or words per minute
     per_minute: 200
   pager_buttons:
-    older_post: "← Article plus ancien"
-    newer_post: "Article plus récent →"
-    first_post: "Début"
-    last_post: "Dernier"
+    older_post: "← 이전 게시물"
+    newer_post: "최근 게시물 →"
+    first_post: "처음"
+    last_post: "마지막"
   comments:
-    noscript: Veuillez activer JavaScript pour afficher les commentaires.
+    noscript: 코멘트를 표시하려면 자바스크립트를 활성화하십시오.
     disqus:
-      count_title: Commentaires
-      click_to_load: "Charger les commentaires"
+      count_title: 코멘트
+      click_to_load: "코멘트를 표시합니다."
       consent:
         title: Commentaires (Disqus.com)
         text: >
@@ -148,21 +148,21 @@ archives:
 
 # for about layout
 about:
-  title: À propos
-  button_name: À propos
-  email_title: e-mail
+  title: DokBak
+  button_name: 자기소개
+  email_title: 전자메일
 
 # for links layout
 links:
-  title: Liens
-  button_name: Liens
-  link_text: Site Internet
-  info_text: Info
+  title: 참고 사이트
+  button_name: 참고 사이트
+  link_text: 웹사이트
+  info_text: 설명
 
 # for projects layout
 projects:
-  title: Projets
-  button_name: Projets
+  title: 프로젝트
+  button_name: 프로젝트
   read_more_text: En savoir plus
   read_less_text: Réduire
 
