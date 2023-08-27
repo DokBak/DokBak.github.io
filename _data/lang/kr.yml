@@ -49,7 +49,7 @@ copyright:
   additional_text: " 저작권으로 보호받고 있습니다. "
 
 creative_commons:
-  some_rights_reserved: 일부 권리는 유보되어 있습니다.
+  some_rights_reserved: 일부 권리는 보류되어 있습니다.
   # check _data/owner/[language].yml for license type.
   by: 특별히 명기되어 있지 않은 한, 이 웹 사이트의 콘텐츠는 크리에이티브 커먼즈입니다. 표시 4.0 국제 라이선스 하에 제공되고 있습니다.
   by-nd: 특별히 명기되어 있지 않은 한, 이 웹사이트의 콘텐츠는 크리에이티브 커먼즈입니다. 표시 - 변경 금지 4.0 국제 라이선스 하에 제공되고 있습니다.
@@ -77,29 +77,29 @@ post:
     first_post: "처음"
     last_post: "마지막"
   comments:
-    noscript: 코멘트를 표시하려면 자바스크립트를 활성화하십시오.
+    noscript: 댓글를 표시하려면 자바스크립트를 활성화하십시오.
     disqus:
-      count_title: 코멘트
-      click_to_load: "코멘트를 표시합니다."
+      count_title: 댓글
+      click_to_load: "댓글를 표시합니다."
       consent:
-        title: Commentaires (Disqus.com)
+        title: 댓글 (Disqus.com)
         text: >
-          La fonctionnalité de commentaire est hébergée par un tiers. En affichant le contenu externe, vous acceptez les $terms et la $privacy_policy de disqus.com.
-          <br>Si vous préférez désactiver la publicité ciblée, ouvrez $settings_link et cliquez sur le bouton "désactiver" et fermez. Revenez ici et chargez les commentaires.
-        terms_link_text: Conditions d'utilisation
-        privacy_link_text: Politique de confidentialité
-        settings_link_text: ce lien
+          댓글 기능은 제3자에 의해 호스팅됩니다. 외부 콘텐츠를 보여줌으로써 disqus.com 의 $terms 및 $privacy_policy을 수락합니다.
+          <br>타겟을 좁힌 광고에서 제외하고 싶다면 $settings_link를 열고 "opt-out" 버튼을 클릭한 후 닫습니다. 여기로 돌아가서 댓글을 표시해 주세요.
+        terms_link_text: 이용약관
+        privacy_link_text: 개인 정보 보호 정책
+        settings_link_text: 링크
         button:
-          load_once: Afficher uniquement cette fois
-          load_and_do_not_ask_again: Toujours montrer
+          load_once: 이번만 표시
+          load_and_do_not_ask_again: 항시 표시
   table_of_contents:
-    heading: Contenu
+    heading: 목차
     tooltip:
-      move: Glisser pour déplacer
-      close: Fermer
+      move: 드래그엔 드롭으로 이동
+      close: 닫기
   share:
-    heading: Partager sur
-    link_copied: Lien copié !
+    heading: 공유
+    link_copied: 링크가 복사되었습니다!
     tooltip:
       # keys need to match with _data/share.yml
       twitter: Twitter
@@ -107,7 +107,7 @@ post:
       telegram: Telegram
       linkedin: LinkedIn
       email: e-mail
-      copy_link: Copier le lien
+      copy_link: 링크복사
 
 # for post-list layout
 post-list:
@@ -115,21 +115,21 @@ post-list:
   button_name: 게시물
   upside_down_tabs:
     tab:
-      all: Toute
-      categories: Catégories
-      tags: Mots clés
-      years: Années
-      clear: Retirer
-      close: Fermer
+      all: 모두
+      categories: 카테고리
+      tags: 태그
+      years: 년도
+      clear: 정리
+      close: 닫기
       tooltip:
-        clear: Retirer
-        close: Fermer
+        clear: 정리
+        close: 닫기
     msg:
       property_list:
         # keys need to match with /query/post-query.json
-        tags: Étiquette
-        category: Catégorie
-        year: Année
+        tags: 태그
+        category: 카테고리
+        year: 년도
       # you can use these wildcards, {property} {value} {thumb}
       resultFoundTitleFormat: "{property} : {thumb}"
 
@@ -178,8 +178,8 @@ constants:
 
 # for contact form
 contact_form:
-  button_name: Formulaire de contact
-  formLoadingText: Chargement du formulaire de contact...
+  button_name: 문의 양식
+  formLoadingText: 문의 양식 가져오는 중...
 
 # for cookie consent
 cookie_consent:
