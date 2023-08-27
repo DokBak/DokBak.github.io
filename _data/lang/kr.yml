@@ -111,8 +111,8 @@ post:
 
 # for post-list layout
 post-list:
-  title: Blog
-  button_name: Blog
+  title: 게시물
+  button_name: 게시물
   upside_down_tabs:
     tab:
       all: Toute
@@ -137,14 +137,14 @@ post-list:
 home:
   title: 어서오세요
   button_name: 홈
-  new_posts_title: 최신 포스트
+  new_posts_title: 최신 게시물
   new_posts_show_more_button: 더 보기 ...
 
 # for archives layout
 archives:
-  title: 블로그 기록
-  button_name: 블로그 기록
-  page_header: 블로그 기록
+  title: 게시물 기록
+  button_name: 게시물 기록
+  page_header: 게시물 기록
 
 # for about layout
 about:
@@ -172,9 +172,11 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: Bonjour
-  welcome: Bienvenue
-  sample: Goûter
+  greetings: 안녕하세요!
+  welcome: 어서오세요
+  sample: >
+    DokBak의 기술 블로그입니다. 
+    잘부탁합니다.
 
 # for contact form
 contact_form:
@@ -191,46 +193,46 @@ cookie_consent:
       승인 후에 활성화됩니다.
     privacy_msg: $privacy_link을 확인해주세요.
     buttons:
-      accept: &accept_button Autoriser tout
-      settings: Personnaliser
-      deny: &deny_button Refuser
+      accept: &accept_button 모두 허가
+      settings: 설정
+      deny: &deny_button 불가
   panel_settings:
     title: *cookie_settings
     msg: >
-      Ce site Web utilise des cookies pour optimiser les fonctionnalités du site.
-      Ils seront activés avec votre accord. Veuillez cliquer sur chaque élément ci-dessous pour la politique en matière de cookies.
+      본 웹사이트는 기능을 최적화하기 위해 쿠키를 사용하고 있습니다.
+      승인 후에 활성화됩니다.쿠키 정책에 대해서는 아래의 각 항목을 클릭해 주세요.
     privacy_msg: $privacy_link을 확인해주세요.
     buttons:
       accept: *accept_button
-      save: Autoriser la sélection
+      save: 선택 항목 허가
       deny: *deny_button
-    always_active: Toujours actif
+    always_active: 항시 유효
     consent_types:
       necessary:
-        title: Cookies strictement nécessaires
+        title: 필수 쿠키
         info: >
-          Ces cookies sont essentiels au fonctionnement du site Web et ne peuvent pas être désactivés.
-          Ils sont généralement définis lorsque la fonction du site, telle que la palette de couleurs, etc., est modifiée.
-          Ces cookies ne stockent aucune information personnellement identifiable.
+          이 쿠키는 웹 사이트 기능에 필수적이며 비활성화할 수 없습니다.
+          일반적으로 배경색 등의 사이트 기능을 변경했을 때 설정됩니다.
+          이 쿠키에는 개인을 특정할 수 있는 정보가 저장되지 않습니다.
           $gtag_info
       analytics:
-        title: Cookies de performance
+        title: 퍼포먼스 쿠키
         info: $gtag_info
       preferences:
-        title: Cookies de fonctionnalité
+        title: 기능성 쿠키
         info: $gtag_info
       advertising:
-        title: Cookies de ciblage et publicitaires
+        title: 타켓팅 광고 쿠키
         info: $gtag_info
     gtag_info:
       # from https://support.google.com/tagmanager/answer/10718549#consent-types
       ad_storage: >
-        Permet le stockage (de cookies, par exemple) lié à la publicité.
+        광고와 관련된 저장(Cookie 등)을 활성화합니다.
       analytics_storage: >
-        Permet le stockage (de cookies, par exemple) lié à l'analyse (comme la durée des visites).
+        방문시 체류시간 등의 분석과 관련된 보존(Cookie 등)을 유효하게 합니다.
       functionality_storage: >
-        Permet le stockage compatible avec la fonctionnalité du site ou de l'application (par exemple, les paramètres linguistiques).
+        Web 사이트 또는 앱의 기능(언어 설정 등)을 지원하는 저장을 활성화합니다.
       personalization_storage: >
-        Permet le stockage lié à la personnalisation (par exemple, les recommandations de vidéos).
+        추천 동영상 등 개인화와 관련된 저장을 활성화합니다.
       security_storage: >
-        Permet le stockage lié à la sécurité (par exemple, la fonctionnalité d'authentification, la prévention des fraudes et les autres systèmes de protection des utilisateurs).
+        인증 기능, 부정행위 방지, 기타 사용자 보호 등 보안과 관련된 저장을 활성화합니다.

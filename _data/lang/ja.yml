@@ -110,8 +110,8 @@ post:
 
 # for post-list layout
 post-list:
-  title: ブログ
-  button_name: ブログ
+  title: ポスト
+  button_name: ポスト
   upside_down_tabs:
     tab:
       all: 全て
@@ -141,9 +141,9 @@ home:
 
 # for archives layout
 archives:
-  title: ブログ記録
-  button_name: ブログ記録
-  page_header: ブログ記録
+  title: ポスト記録
+  button_name: ポスト記録
+  page_header: ポスト記録
 
 # for about layout
 about:
@@ -171,7 +171,7 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: こんにちは
+  greetings: こんにちは!
   welcome: ようこそ
   sample: サンプル
 
