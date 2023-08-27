@@ -174,9 +174,7 @@ privacy-policy:
 constants:
   greetings: 안녕하세요!
   welcome: 어서오세요
-  sample: >
-    DokBak의 기술 블로그입니다. 
-    잘부탁합니다.
+  sample: DokBak의 개인 블로그입니다.
 
 # for contact form
 contact_form:
