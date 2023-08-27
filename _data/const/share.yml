@@ -9,6 +9,7 @@
 # keys need to match with share. Tooltip definitions in _data/lang/[language].yml file
 
 # 별도 추가 주석
+# _data/lang/[language].yml
 # post.share.tooltip 출력되는 정보
 
 # - twitter:

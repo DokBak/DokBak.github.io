@@ -48,8 +48,8 @@ meta_common_description: "메타 정보"
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  #- github: ""
-  #- email: ""
+  - github: "DokBak"
+  - email: "photoismylife0216@gmail.com"
   #- linkedin: ""
   #- twitter: ""
   #- mastodon: ""

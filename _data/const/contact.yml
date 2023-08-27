@@ -12,6 +12,10 @@
 #   * the image should be square
 # keys need to match with accounts in _data/owner/[language].yml file
 
+# 별도 추가 주석
+# _data/owner/[language].yml
+# post.share.tooltip 출력되는 정보
+
 github:
   icon: "fa fa-github"
   url: "https://github.com"
@@ -37,6 +41,7 @@ youtube:
 facebook:
   icon: "fa fa-facebook"
   url: "https://www.facebook.com"
+
 # add your new contact
 # your_new_contact:
 #   icon: "fa fa-font"
