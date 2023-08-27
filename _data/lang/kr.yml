@@ -102,10 +102,10 @@ post:
     link_copied: 링크가 복사되었습니다!
     tooltip:
       # keys need to match with _data/share.yml
-      twitter: Twitter
-      facebook: Facebook
-      telegram: Telegram
-      linkedin: LinkedIn
+      # twitter: Twitter
+      # facebook: Facebook
+      # telegram: Telegram
+      # linkedin: LinkedIn
       email: e-mail
       copy_link: 링크복사
 
