@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_2023_08_29_post
-title: First Post
+title: Homebrew 설치 
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -9,9 +9,14 @@ author: DokBak
 # multiple category is not supported
 category: Setting
 # multiple tag entries are possible
-tags: [Shell, Java, Git]
+# Env : MacOS, Windows, Linux
+# Language : Java, C, C++, C#, Python, bash, zsh
+# Tools : Terminal, Visual Studio Code, IntelliJ, Xcode
+# etc : homebrew
+#
+tags: [MacOS, homebrew, Terminal]
 # thumbnail image for post
-img: ":post_pic1.jpg"
+img: ":settings.png"
 # disable comments on this page
 #comments_disable: true
 
@@ -41,151 +46,38 @@ date: 2023-08-29 22:51:00 +0900
 
 <!-- outline-start -->
 
-This is an example page to display markdown related styles for Mr. Green Jekyll Theme.
+MacOS 환경에서 프로그램 관리시 유용한 패키지 관리 툴
 
 <!-- outline-end -->
 
-### Headings (centered)
-{:data-align="center"}
+# Homebrew 설치하기 
 
-# Heading 1
+macOS용 패키지 관리자
 
-## Heading 2
+## 1. Homebrew 공식사이트 접속하기
+### 1-1. 영문 사이트
+> https://brew.sh/
 
-### Heading 3
+### 1-2. 한국어 사이트
+> https://brew.sh/index_ko
 
-#### Heading 4
+### 1-3. 일본어 사이트
+> https://brew.sh/index_ja
 
-##### Heading 5
+## 2. 인스톨 (Terminal)
 
-###### Heading 6
+```    
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
+```
 
-***
+## 3. 설치 확인 (Terminal)
 
-### Paragraphs
+### 3-1. Homebrew 버전 확인 (Terminal)
+```
+brew --version
+```
 
-#### Paragraph
-
-**William Shakespeare**, Let me not to the marriage of true minds
-Admit impediments. Love is not love
-Which alters when it alteration finds,
-Or bends with the remover to remove.
-O no, it is an ever-fixed mark
-That looks on tempests and is never shaken;
-It is the star to every wand'ring barque,
-Whose worth's unknown, although his height be taken.
-Love's not Time's fool, though rosy lips and cheeks
-Within his bending sickle's compass come;
-Love alters not with his brief hours and weeks,
-But bears it out even to the edge of doom.
-If this be error and upon me proved,
-I never writ, nor no man ever loved.
-
-#### Texts
-
-Quoted text `Hello world`
-
-Bold text **Hello world**
-
-Italic text _Hello world_
-
-kbd text <kbd>Hello world</kbd>
-
-#### Blockquote
-
-> **William Shakespeare**, Let me not to the marriage of true minds
-> Admit impediments. Love is not love
-> Which alters when it alteration finds,
-> Or bends with the remover to remove.
-> O no, it is an ever-fixed mark
-> That looks on tempests and is never shaken;
-> It is the star to every wand'ring barque,
-> Whose worth's unknown, although his height be taken.
-> Love's not Time's fool, though rosy lips and cheeks
-> Within his bending sickle's compass come;
-> Love alters not with his brief hours and weeks,
-> But bears it out even to the edge of doom.
-> If this be error and upon me proved,
-> I never writ, nor no man ever loved.
-
-### Link
-
-This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
-
-\* Hello world! This is **[{{ site.data.owner[site.data.conf.main.default_lng].brand }}]({{ site.url }})**
-
-### Picture
-
-![such a lovely place](:post_pic1.jpg)
-
-### Picture (centered)
-
-![such a lovely place](:post_pic1.jpg){:data-align="center"}
-
-### Lists
-
-- Apple
-- Banana
-- Orange
-
-1. Fruits
-   1. Apples
-      - Granny Smith
-      - Mutsu
-   1. Bananas
-      - Cavendish
-      - Red
-1. Vegetables
-
-***
-
-### Tables
-
-#### Small Table (centered)
-
-| Fruits(not aligned) | Alignment (centered) | num (right align) |
-| ------------------- | :------------------: | ----------------: |
-| Apple               |       centered       |              9999 |
-| Banana              |  centered long text  |               999 |
-| Orange              |       centered       |                99 |
-| Lemon               |       centered       |                 9 |
-{:data-align="center"}
-
-#### Wide Table (centered)
-
-scroll enabled when page is narrow
-
-| Fruits | num (left align) | num (right align) | num  | num  | num  |
-| ------ | :--------------- | ----------------: | ---- | ---- | ---- |
-| Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
-| Banana | 111              |               111 | 222  | 333  | 444  |
-| Orange | 11               |                11 | 22   | 33   | 44   |
-| Lemon  | 1                |                 1 | 2    | 3    | 4    |
-{:data-align="center"}
-
-#### Wider Table
-
-scroll enabled when page is narrow
-
-| Fruits | num (left align) | num (right align) | num  | num  | num  | num  | num  | num  |
-| ------ | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
-| Apple  | 1111             |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
-| Banana | 111              |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
-| Orange | 11               |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
-| Lemon  | 1                |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
-
-### Code
-
-#### Highlight
-
-{% highlight python %}
-for i in range(5, 10):
-  print(i)
-{% endhighlight %}
-
-#### Quote
-
-```python
-for i in range(5, 10):
-  print(i)
+### 3-2. 간단히 메뉴얼이 출력 (Terminal)
+```
+brew
 ```
