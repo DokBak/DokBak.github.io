@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_2023_08_29_post
-title: Homebrew 설치
+title: Homebrew
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -99,28 +99,28 @@ mas list
 mas upgrade
 ```
 
-> 주 사용 단축키 확인   
+> - 주 사용 단축키 확인   
 > 
-> 화면의 1/2만 표시  
->> 왼쪽 : ^ + ⌥ + ◀︎  
->> 오른쪽 : ^ + ⌥ + ▶︎  
->> 위 : ^ + ⌥ + ▲  
->> 아래 : ^ + ⌥ + ▼  
+> - 화면의 1/2만 표시  
+>    - 왼쪽 : ^ + ⌥ + ◀︎  
+>    - 오른쪽 : ^ + ⌥ + ▶︎  
+>    - 위 : ^ + ⌥ + ▲  
+>    - 아래 : ^ + ⌥ + ▼  
 >
-> 화면의 1/4만 표시  
->> 왼쪽 위 : ^ + ⌥ + U  
->> 오른쪽 위: ^ + ⌥ + I  
->> 왼쪽 아래 : ^ + ⌥ + J  
->> 오른쪽 아래 : ^ + ⌥ + K  
+> - 화면의 1/4만 표시  
+>    - 왼쪽 위 : ^ + ⌥ + U  
+>    - 오른쪽 위: ^ + ⌥ + I  
+>    - 왼쪽 아래 : ^ + ⌥ + J  
+>    - 오른쪽 아래 : ^ + ⌥ + K  
 >
-> 화면의 2/3만 표시  
->> 좌측 2/3 : ^ + ⌥ + E  
->> 우측 2/3 : ^ + ⌥ + T  
+> - 화면의 2/3만 표시  
+>    - 좌측 2/3 : ^ + ⌥ + E  
+>    - 우측 2/3 : ^ + ⌥ + T  
 >
-> 화면 전체  
->> 최대화 : ^ + ⌥ + ↩︎  
->> 중앙 : ^ + ⌥ + C  
->> 복구 : ^ + ⌥ + ⌫  
+> - 화면 전체  
+>    - 최대화 : ^ + ⌥ + ↩︎  
+>    - 중앙 : ^ + ⌥ + C  
+>    - 복구 : ^ + ⌥ + ⌫  
 
 2) 카카오톡  
 **869223134**  KakaoTalk (3.2.5)
@@ -150,21 +150,110 @@ mas list
 mas upgrade
 ```
 ## 5. homebrew 추천 프로그램
-1) Visual Studio Code
+- IDE (Integrated Development Environment)
+1) Visual Studio Code : 전반적인 프로그램 개발에 유용
 ```
 brew search visual-studio-code
 brew install --cask visual-studio-code
 brew list
 ```
-2) springtoolsuite
+2) springtoolsuite : java와 spring에 특화
 ```
 brew search springtoolsuite
 brew install --cask springtoolsuite
 brew list
 ```
-3) Xcode
+3) Xcode : swift와 ISO환경 개발에 특화 - 가급적 mas로 설치
 ```
 brew search Xcode
 brew install --cask Xcodes
+brew list
+```
+- Programming
+1) git : 프로그램 버전 관리 툴
+```
+brew search git
+brew install git
+brew list
+git --version
+```
+2) python : 파이썬 언어
+```
+brew search python
+brew install python3
+brew install --cask python@3.10
+brew list
+python3 --version
+```
+3) pipenv : 파이썬 버전별 관리해주는 패키지
+```
+brew search pipenv
+brew install pipenv
+brew list
+pipenv --version
+```
+4) jdk(adoptopenjdk) : 자바 언어  
+jdk의 경우 Formulae의 openjdk와 casks의 adoptopenjdk 등 여러 버전이 존재한다.  
+jdk를 배포한 주최가 누구냐에 따라 이름이 달라지는 것이라 생각하면 된다고 한다.  
+나는 커뮤니티에서 관리하고 있는 무료판 jdk : adoptopenjdk를 설치 할 것이다.  
+tap 명령어를 이용하면 Homebrew 공식 저장소 이외의 다른 저장소를 등록가능하다.
+```
+brew tap adoptopenjdk/openjdk
+brew search adoptopenjdk
+brew install --cask adoptopenjdk8
+brew install --cask adoptopenjdk11
+brew list
+java --version
+```
+5) rbenv : 루비 버전 관리 패키지
+```
+brew search rbenv
+brew install rbenv
+brew list
+rbenv versions
+```
+6) ruby : 루비 언어
+```
+rbenv versions
+rbenv install --list 
+rbenv install 2.6.10
+ruby --version
+```
+1) nkf : 문자코드, 개행문자 등의 수정 명령어
+```
+brew search nkf
+brew install nkf
+brew list
+nkf --version
+```
+- etc Program
+1) google-chrome
+```
+brew search google-chrome
+brew install --cask google-chrome
+brew list
+```
+2) zoom
+```
+brew search zoom
+brew install --cask zoom
+brew list
+```
+3) iterm2
+```
+brew search iterm2
+brew install --cask iterm2 
+brew list
+```
+4) chatwork
+```
+brew search chatwork
+brew install --cask chatwork 
+brew list
+```
+5) OneDrive
+```
+brew search OneDrive
+brew install --cask OneDrive 
 brew list
 ```
