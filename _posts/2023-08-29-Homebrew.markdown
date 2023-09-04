@@ -220,7 +220,7 @@ rbenv install --list
 rbenv install 2.6.10
 ruby --version
 ```
-1) nkf : 문자코드, 개행문자 등의 수정 명령어
+7) nkf : 문자코드, 개행문자 등의 수정 명령어
 ```
 brew search nkf
 brew install nkf
