@@ -1,0 +1,76 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_2023_09_06_post
+title: Git Set
+
+# post specific
+# if not specified, .name will be used from _data/owner/[language].yml
+author: DokBak
+# multiple category is not supported
+category: Setting
+# multiple tag entries are possible
+# Env : Macos, Windows, Linux
+# Language : Java, C, C++, C#, Python, bash, zsh
+# Tools : Terminal, Visual Studio Code, IntelliJ, Xcode
+# etc : homebrew
+#
+tags: [Macos, Java]
+# thumbnail image for post
+img: ":settings.png"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 2023-09-06 22:51:00 +0900
+
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2022-02-10 08:11:06 +0900
+# check the meta_common_description in _data/owner/[language].yml
+#meta_description: ""
+
+# optional
+# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
+# image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
+#image_viewer_on: true
+# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
+# image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+#published: false
+---
+
+<!-- outline-start -->
+
+MacOS 환경에서 Git 사용하기
+
+<!-- outline-end -->
+
+# Git
+### 1. 버전 확인
+###### 1-1. 설치된 git 버전  
+Homebrew로 git 설치 또는 공식 사이트로부터 git 설치  
+공식 사이트 : https://git-scm.com/  
+
+```
+git --version
+```
+###### 1-2. 현재 등록되어 있는 계정 정보 확인 
+```
+git config --list
+```
+###### 1-3. 등록이 되있는 경우, 등록 내용 취소
+```
+git config --global --unset user.name
+git config --global --unset user.email
+```
+###### 1-4. 유저정보, 메일정보 등록
+user.name과 user.email 값을 ""등으로 감싸지 말 것  
+```
+git config user.name DokBak
+git config user.email photoismylife0216@gmail.com
+```
